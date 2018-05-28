@@ -2,6 +2,8 @@ html {
 	background-color: black;
 	font-family: helvetiva, sans-serif;
 	color: seashell;
+	width: 1200px;
+	margin: 0 auto;
 }
 
 .navigation {
@@ -14,11 +16,12 @@ html {
 	font-size: 22px;
 	opacity: 0.9;
 	align-items: center;
+	background-color: black;
+	justify-content: space-between;
 }
 
 .logo {
 	display: flex;
-	flex-grow: 1;
 	align-items: center;
 	height: 50px;
 	margin-left: 10px;
@@ -31,6 +34,7 @@ nav {
 nav span {
 	display: inline-block;
 	text-decoration: underline;
+	color: seashell;
 	padding-right: 20px;
 }
 
@@ -51,5 +55,34 @@ nav span {
 	height: 100px;
 	width: 100%;
 	align-items: center;
+	text-align: center;
+}
+
+.content { 
+	display: flex;
+	width: 1000px;
+	margin: 50px 100px 0 100px;
+	justify-content: center;
+}
+
+.introduction {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.teaser-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.teaser {
+	display: flex;
+	width: 300px;
+	min-height: 200px;
+	flex-direction: column;
+	margin: auto 20px;
 	text-align: center;
 }
