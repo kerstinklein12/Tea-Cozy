@@ -9,6 +9,7 @@ html {
 .navigation {
 	display: flex;
 	position: fixed;
+	top: 0px;
 	width: 1200px;
 	height: 69px;
 	z-index: 1;
@@ -23,7 +24,6 @@ html {
 .logo {
 	display: flex;
 	align-items: center;
-	height: 50px;
 	margin-left: 10px;
 }
 
@@ -42,7 +42,7 @@ nav span {
 	display: flex;
 	flex-grow: 1;
 	position: relative;
-	top: 70px;
+	top: 69px;
 	height: 700px;
 	width: 1200px;
 	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
@@ -85,4 +85,46 @@ nav span {
 	flex-direction: column;
 	margin: auto 20px;
 	text-align: center;
+}
+
+#locations {
+	display: flex;
+	flex-direction: column;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+	width: 1200px;
+	height: 500px;
+	margin-top: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+.location-teaser{
+	display: flex;
+	flex-direction: row;
+}
+
+.location {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	width: 300px;
+	height: auto;
+	margin: 15px 20px 20px 20px;
+	opacity: 1;
+	text-align: center;
+	}
+
+p {
+	margin: 20px 20px 20px 20px;
+}
+
+.footer {
+	height: 200px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.copyright h5 {
+	text-align: left;
+	margin-left: 20px;
 }
